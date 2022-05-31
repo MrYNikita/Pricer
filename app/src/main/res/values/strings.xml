@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Pricer</string>
+    <string name="title_home">Home</string>
+
+    <string name="title_find">Find</string>
+    <string name="title_list">List</string>
+    <string name="title_item">Item</string>
+    <string name="title_settings">Settings</string>
+
+    <!-- mode -->
+    <string name="mode_dark">Dark Theme</string>
+    <string name="title_data">data</string>
+    <string name="title_domain">domain</string>
+
+    <!-- preference -->
+
+</resources>

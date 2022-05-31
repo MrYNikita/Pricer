@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Screen">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="switch_preference_1"
+            android:title="Dark theme" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="switch_preference_2"
+            android:title="Battery saving" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Search">
+
+        <EditTextPreference
+            android:defaultValue="10"
+            android:key="edit_text_preference_1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Min price" />
+        <EditTextPreference
+            android:defaultValue="357"
+            android:key="edit_text_preference_2"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Max price" />
+    </PreferenceCategory>
+</PreferenceScreen>
